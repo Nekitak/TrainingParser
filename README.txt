@@ -1,8 +1,8 @@
-#it`s my traning framework
+#it`s my traning parser
 
 #lib`s use: 
-	-ReadBean
 	-Bootstrap
+	-simple_html_dom
 
 #folder vender - here located core of this framework, closed to users , here located core components of app;
 
@@ -16,11 +16,4 @@
 #.htaccess file - use to use RewriteEngine and redirect params
 #Application file - app builder , need to create and start copy of application
 
-#config folder - here located dbinfo and route map of app
-#controllers folder - here located all contollers of app
-#layouts folder - here located static layots of app
-#models folder - here located init model(need to create PDO object for use RB) and all models of app
-#views folder - here located all views of app
-#components folder - here located all useful components of app(for ex. - autoloader of classes)
-
-<---------------->
+ it`s smoll web application for parse Yandex news and view this news on site with out jump to Yandex news
