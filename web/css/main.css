@@ -39,6 +39,7 @@ width: 90%;
 #newsFeed::-webkit-scrollbar { width: 0; }
 
 #newsFeed{
+
 box-shadow: 0 0 18px black;
 -ms-overflow-style: none;  
 overflow: hidden;
@@ -75,7 +76,11 @@ filter: opacity(0.6);
 
 }
 
-.image{
+img{
+   float: right;
+  margin-top: 3%;
   height: 80px;
+  width: 128px;
 }
 
+ 

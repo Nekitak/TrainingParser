@@ -13,10 +13,18 @@
 }
 
 .hrefs{
- pointer-events: none;
-filter: saturate(200%);
-	color:rgb(110, 168, 235);
+ 	pointer-events: none;
+	filter: saturate(200%);
 
+}
+
+a.link{	 
+	color: black ;
+}
+
+h2.story__title{
+	font-size: 1.35em;
+	 
 }
 
 .DY5T1d{

@@ -19,16 +19,15 @@
 
 		<div class="col-sm-10">
                     <div class="wrapper container-fluid" id="newsFeed">
-                        <div class="row">
-                           <?php foreach($html->find('h2.story__title') as $e): ?>         
+                        <div class="row">  
+                           <?php foreach($html->find('div.story')  as $e): ?>         
                         <div class="col-sm-10 news">
                             <div>
-                            <i class="hrefs"><?= $e->plaintext; ?></i><br/>
-                            <i class="hres">Short Description</i><br/><br/>
-                            <i class="hrefs_h"><a href="<?php //"https://vkyhne.ru" .  $e->find('a.product-name')[0]->href?>" >Подробнее</a></i> 
+                            <i class="hrefs"><?= $e->find('h2.story__title')[0]; ?></i> 
+                            <i class="hrefs_h"><a href="<?="https://news.yandex.ru" .  $e->find('a.link.link_theme_black')[0]->href?>" >Подробнее</a></i> 
                         </div>
-                        <div>
-                            <img class = "image" src="<?php // $e->find('img.replace-2x')[0]->src?>">
+                        <div> 
+                            <?= $e->find('img')[0];?>
                         </div>
                         </div>
                            <?php endforeach; ?>     

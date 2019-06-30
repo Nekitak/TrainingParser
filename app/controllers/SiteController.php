@@ -22,7 +22,6 @@ class SiteController
        
        $html = Parser::parse();
        
-       
        require_once(ROOT . '/app/views/site/index.php');
         
     }
