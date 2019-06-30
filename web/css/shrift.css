@@ -1,0 +1,29 @@
+
+.buttons{
+	margin-top: 0.5%;
+	margin-left: 5%;
+
+}
+
+#menuWrapper{
+	margin-top: 1%;
+	display: flex;
+	
+  
+}
+
+.hrefs{
+ pointer-events: none;
+filter: saturate(200%);
+	color:rgb(110, 168, 235);
+
+}
+
+.DY5T1d{
+	color: black;
+}
+
+#list{
+	filter: saturate(200%);
+	color:rgb(110, 168, 235);
+}
